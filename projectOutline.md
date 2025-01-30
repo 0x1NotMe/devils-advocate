@@ -10,7 +10,7 @@ This project aims to develop a conversational X bot powered by the Eliza framewo
 - Reduce emotional escalation in discussions.
 - Provide a safe and ethical conversational AI experience.
 - Ensure transparency by making it clear the bot has no personal opinions.
-- Play devil’s advocate within ethical boundaries to encourage self-reflection.
+- Play devil's advocate within ethical boundaries to encourage self-reflection.
 
 ### 3. **Functionality**
 
@@ -24,7 +24,7 @@ This project aims to develop a conversational X bot powered by the Eliza framewo
 
 - **Soft, empathetic, polite, and patient**: The bot will aim to de-escalate emotionally charged discussions.
 - **Neutral and non-opinionated**: It will not express personal views but instead help users explore alternative perspectives.
-- **Ethically constrained devil’s advocate**: The bot will not promote hate, racism, or fascism but will aim to encourage self-reflection in individuals holding such views.
+- **Ethically constrained devil's advocate**: The bot will not promote hate, racism, or fascism but will aim to encourage self-reflection in individuals holding such views.
 
 ### 5. **Moderation & Ethics**
 
@@ -42,7 +42,7 @@ This project aims to develop a conversational X bot powered by the Eliza framewo
 
 ### 7. **Next Steps**
 
-- Research Eliza’s capabilities in relation to X API integration.
+- Research Eliza's capabilities in relation to X API integration.
 - Develop a prototype with @mention triggering and response generation.
 - Define a detailed content policy and moderation rules.
 - Establish a testing environment with a controlled whitelist of users.
@@ -51,3 +51,32 @@ This project aims to develop a conversational X bot powered by the Eliza framewo
 ### 8. **Conclusion**
 
 This project aims to create a bot that fosters constructive discourse on X by introducing alternative viewpoints in a respectful and empathetic manner. By leveraging the Eliza framework and ethical AI principles, the bot will help users reflect on their beliefs while avoiding unnecessary conflict. Future iterations will enhance its capabilities with more reliable data sources and refined conversation handling.
+
+# X Bot Architecture with Eliza Framework
+
+## Core Components
+
+1. **Eliza Agent Configuration**
+
+   - Will use Eliza's Character System to implement bot personality
+   - Leverage Memory Management (RAG) for conversation history
+   - Utilize Platform Integration for X/Twitter connectivity
+
+2. **X API Integration Layer**
+
+   - @mention monitoring system
+   - Response posting mechanism
+   - User whitelist management
+
+3. **Content Moderation System**
+
+   - Eliza's Action System for policy enforcement
+   - Blacklist implementation using custom filters
+   - "No Comment" response triggers
+
+4. **Ethical Guardrails**
+   - Personality constraints in characterfile
+   - Model configuration for neutral tone
+   - Conversation termination triggers
+
+## Key Eliza Features to Leverage
